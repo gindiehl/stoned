@@ -9,6 +9,11 @@ class RocksController < ApplicationController
     json_response(@rock)
   end
 
+  def by_name
+    @rock = Rock.by_name(params[:name])
+    json_response(@rock)
+  end
+
   def create
     @rock = Rock.create!(rock_params)
     json_response(@rock, :created)

@@ -297,6 +297,9 @@
         1,
         1,
         1,
+        null,
+        1,
+        1,
         1,
         1,
         null,
@@ -333,6 +336,7 @@
         1,
         1,
         1,
+        2,
         null
       ],
       "/Users/Guest/Desktop/stoned/spec/requests/delete_mineral_spec.rb": [
@@ -355,6 +359,18 @@
         1,
         null,
         1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/stoned/spec/requests/get_by_name_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
         1,
         1,
         1,
@@ -568,7 +584,7 @@
       "/Users/Guest/Desktop/stoned/app/controllers/concerns/response.rb": [
         1,
         1,
-        16,
+        17,
         null,
         null
       ],
@@ -593,6 +609,11 @@
         1,
         2,
         2,
+        null,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         1,
@@ -626,6 +647,6 @@
         null
       ]
     },
-    "timestamp": 1501016977
+    "timestamp": 1501017228
   }
 }
