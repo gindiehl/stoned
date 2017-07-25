@@ -317,6 +317,7 @@
         1,
         1,
         1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/stoned/app/models/application_record.rb": [
@@ -671,6 +672,6 @@
         null
       ]
     },
-    "timestamp": 1501017838
+    "timestamp": 1501023566
   }
 }
