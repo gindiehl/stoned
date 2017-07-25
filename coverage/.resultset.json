@@ -269,7 +269,7 @@
         1,
         null,
         1,
-        6,
+        8,
         null,
         null,
         null,
@@ -297,6 +297,9 @@
         1,
         1,
         1,
+        1,
+        1,
+        null,
         null,
         null,
         null
@@ -307,6 +310,7 @@
         null
       ],
       "/Users/Guest/Desktop/stoned/app/models/mineral.rb": [
+        1,
         1,
         1,
         1,
@@ -358,6 +362,25 @@
         null
       ],
       "/Users/Guest/Desktop/stoned/spec/requests/get_minerals_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/stoned/spec/requests/get_random_spec.rb": [
         1,
         null,
         1,
@@ -499,6 +522,12 @@
         null,
         null,
         1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
         1,
         1,
         1,
@@ -539,7 +568,7 @@
       "/Users/Guest/Desktop/stoned/app/controllers/concerns/response.rb": [
         1,
         1,
-        14,
+        16,
         null,
         null
       ],
@@ -597,6 +626,6 @@
         null
       ]
     },
-    "timestamp": 1501016312
+    "timestamp": 1501016977
   }
 }

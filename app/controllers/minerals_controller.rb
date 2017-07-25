@@ -11,6 +11,12 @@ class MineralsController < ApplicationController
     json_response(@mineral)
   end
 
+  def random
+    @rock = Rock.find(params[:rock_id])
+    @minerals = @rock.minerals.where(hardness: 1..10)
+    json_response(@minerals)
+  end
+
   def create
     @rock = Rock.find(params[:rock_id])
     @mineral = @rock.minerals.create!(mineral_params)

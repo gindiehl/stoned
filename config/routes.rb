@@ -3,6 +3,9 @@ Rails.application.routes.draw do
     get "page/:page", action: :index, on: :collection
     resources :minerals do
       get "page/:page", action: :index, on: :collection
+      collection do
+        get :random
+      end
     end
   end
 end
