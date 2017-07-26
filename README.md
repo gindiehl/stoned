@@ -2,7 +2,7 @@
 
 ## Description
 
-An api that will return a list of minerals and associated properties. It lets users search & identify found stones by providing possible matches.
+An api that will return a list of rock types and a rocks minerals, with some associated properties typically used by rockhounds in mineral identification. It lets users search by rock type & provides an option to search for a random mineral.
 
 ## Technologies used / Prerequisites
 
@@ -39,8 +39,11 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 
 | Behavior |  Input   |  Output  |
 |----------|:--------:|:--------:|
+|Add a rock to the database|Post, name => 'Igneous'|message: "Added!"|
 |Add a mineral to the database|Post, name => 'Tourmaline'|message: "Added!"|
+|Update a rock|Put, name => 'Igneous'|name: 'Igneous', id:1|
 |Update a mineral|Put, name => 'Tourmaline'|name: 'Tourmaline', id:1|
+|Delete a rock|Visit a specific rock path, Delete|message: "All out!"|
 |Delete a mineral|Visit a specific mineral path, Delete|message: "All out!"|
 |See a list of all minerals|Visit '/minerals' path|name: 'Tourmaline'|
 |Search for a mineral by name|Visit '/minerals/by_name?name=Tourmaline'|minerals: name:'Tourmaline'|
@@ -49,7 +52,7 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 ## Mineral Path
 ![Mineral](public/images/minerals.png)
 ## Random Path
-![Breed](public/images/random.png)
+![Mineral](public/images/random.png)
 ## Search Path
 ![Search](public/images/by_name.png)
 
