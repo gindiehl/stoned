@@ -20,17 +20,17 @@ ActiveRecord::Schema.define(version: 20170725182229) do
     t.string "category"
     t.string "image"
     t.string "crystal_system"
-    t.text "color", default: [], array: true
-    t.text "crystal_habit", default: [], array: true
     t.string "cleavage"
     t.integer "hardness"
     t.string "luster"
     t.string "streak"
-    t.text "diaphaneity", default: [], array: true
-    t.text "geo_location", default: [], array: true
     t.integer "rock_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "color"
+    t.text "crystal_habit"
+    t.text "diaphaneity"
+    t.text "geo_location"
   end
 
   create_table "rocks", force: :cascade do |t|

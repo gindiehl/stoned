@@ -4,7 +4,6 @@ describe Mineral do
   it { should belong_to :rock }
   it { should validate_presence_of :name }
   it { should validate_presence_of :category }
-  it { should validate_presence_of :image }
   it { should validate_presence_of :crystal_system }
   it { should validate_presence_of :crystal_habit }
   it { should validate_presence_of :color }
