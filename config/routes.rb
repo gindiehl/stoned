@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+   root :to => "rocks#index"
 
   resources :rocks do
     get "page/:page", action: :index, on: :collection
