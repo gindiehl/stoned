@@ -242,49 +242,6 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stoned/config/initializers/rails_admin.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
       "/Users/Guest/Desktop/stoned/config/initializers/wrap_parameters.rb": [
         null,
         null,
@@ -335,7 +292,7 @@
       ],
       "/Users/Guest/Desktop/stoned/config/routes.rb": [
         1,
-        1,
+        null,
         1,
         1,
         1,
@@ -715,6 +672,6 @@
         null
       ]
     },
-    "timestamp": 1501094583
+    "timestamp": 1501096107
   }
 }
