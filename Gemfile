@@ -27,6 +27,7 @@ gem 'puma', '~> 3.7'
 # Project specific gems:
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'kaminari'
+gem 'rails_admin', '~> 1.2'
 
 
 group :development, :test do
