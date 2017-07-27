@@ -50,13 +50,6 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 |Search for a mineral by rock type|Visit '/rocks/by_name?name=Igneous'|minerals: name:'Tourmaline'|
 |Search for random minerals|Visit 'rocks/:id/minerals/random'|minerals: name: 'Corundum'|
 
-## Mineral Path
-![Mineral](localhost:3000/rocks/1/minerals)
-## Random Path
-![Mineral](localhost:3000/rocks/1/minerals/random)
-## Search Path
-![Search]('localhose:3000/rocks/by_name?name=Igneous')
-
 ## Further Exploration
 
 | Behavior |  Input   |  Output  |
