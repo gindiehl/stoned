@@ -3,7 +3,7 @@ https://shielded-garden-28851.herokuapp.com/
 
 ## Description
 
-An api that will return a list of rock types and a rocks minerals, with some associated properties typically used by rockhounds in mineral identification. It lets users search by rock type & provides an option to search for a random mineral.
+An api that will return rock types and a rocks minerals, with some associated properties typically used by rockhounds in mineral identification. It currently lets users search by rock type & provides an option to search for a random mineral. Specifications for further exploration detailed below.
 
 ## Technologies used / Prerequisites
 
@@ -40,22 +40,31 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 
 | Behavior |  Input   |  Output  |
 |----------|:--------:|:--------:|
-|Add a rock to the database|Post, name => 'Igneous'|message: "Added!"|
-|Add a mineral to the database|Post, name => 'Tourmaline'|message: "Added!"|
+|Add a rock type to the database|Post, name => 'Igneous'|message: "Added!"|
+|Add minerals to the database|Post, name => 'Tourmaline'|message: "Added!"|
 |Update a rock|Put, name => 'Igneous'|name: 'Igneous', id:1|
 |Update a mineral|Put, name => 'Tourmaline'|name: 'Tourmaline', id:1|
 |Delete a rock|Visit a specific rock path, Delete|message: "All out!"|
 |Delete a mineral|Visit a specific mineral path, Delete|message: "All out!"|
-|See a list of all minerals|Visit 'rocks/:id/minerals' path|name: 'Tourmaline'|
-|Search for a mineral by name|Visit '/minerals/by_name?name=Tourmaline'|minerals: name:'Tourmaline'|
-|Search for random minerals|Visit '/minerals/1/random'|minerals: name: 'Corundum'|
+|See a list of all minerals for a specific rock|Visit 'rocks/:id/minerals' path|name: 'Tourmaline'|
+|Search for a mineral by rock type|Visit '/rocks/by_name?name=Igneous'|minerals: name:'Tourmaline'|
+|Search for random minerals|Visit 'rocks/:id/minerals/random'|minerals: name: 'Corundum'|
 
 ## Mineral Path
-![Mineral](public/images/minerals.png)
+![Mineral](localhost:3000/rocks/1/minerals)
 ## Random Path
-![Mineral](public/images/random.png)
+![Mineral](localhost:3000/rocks/1/minerals/random)
 ## Search Path
-![Search](public/images/by_name.png)
+![Search]('localhose:3000/rocks/by_name?name=Igneous')
+
+## Further Exploration
+
+| Behavior |  Input   |  Output  |
+|----------|:--------:|:--------:|
+|Search for minerals by color|Visit 'rocks/:id/minerals/by_color?color=blue'|
+|Search for minerals by crystal_system|Visit 'rocks/:id/minerals/by_crystal_system?crystal_system=Isometric'|
+|Search for minerals by category|Visit 'rocks/:id/minerals/by_category?category=Halide'|
+
 
 ## Known Bugs
 * N/A
