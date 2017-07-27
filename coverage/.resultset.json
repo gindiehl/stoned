@@ -292,6 +292,7 @@
       ],
       "/Users/Guest/Desktop/stoned/config/routes.rb": [
         1,
+        1,
         null,
         1,
         1,
@@ -622,6 +623,7 @@
       "/Users/Guest/Desktop/stoned/app/serializers/rock_serializer.rb": [
         1,
         1,
+        1,
         null
       ],
       "/Users/Guest/Desktop/stoned/app/controllers/rocks_controller.rb": [
@@ -672,6 +674,6 @@
         null
       ]
     },
-    "timestamp": 1501096107
+    "timestamp": 1501174537
   }
 }

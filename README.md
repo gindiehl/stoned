@@ -46,7 +46,7 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 |Update a mineral|Put, name => 'Tourmaline'|name: 'Tourmaline', id:1|
 |Delete a rock|Visit a specific rock path, Delete|message: "All out!"|
 |Delete a mineral|Visit a specific mineral path, Delete|message: "All out!"|
-|See a list of all minerals|Visit '/minerals' path|name: 'Tourmaline'|
+|See a list of all minerals|Visit 'rocks/:id/minerals' path|name: 'Tourmaline'|
 |Search for a mineral by name|Visit '/minerals/by_name?name=Tourmaline'|minerals: name:'Tourmaline'|
 |Search for random minerals|Visit '/minerals/1/random'|minerals: name: 'Corundum'|
 
